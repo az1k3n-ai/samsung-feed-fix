@@ -1,0 +1,17 @@
+{
+  "name": "samsung-feed-fix",
+  "version": "1.0.0",
+  "description": "Samsung KZ Google Shopping Feed Fixer — fixes mobile_link, google_product_category, and S26 buy links",
+  "main": "scripts/fix-google-feed.js",
+  "scripts": {
+    "build": "node scripts/fix-google-feed.js > public/google-shopping.xml"
+  },
+  "keywords": ["samsung", "google-shopping", "feed", "merchant-center"],
+  "author": "az1k3n-ai",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "xml2js": "^0.6.2"
+  }
+}
