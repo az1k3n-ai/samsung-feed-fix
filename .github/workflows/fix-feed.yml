@@ -2,7 +2,7 @@ name: Fix & Publish Google Shopping Feed
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # каждые 30 минут
+    - cron: '0 */2 * * *'   # каждые 2 часа
   workflow_dispatch:          # ручной запуск
   push:
     branches: [ main ]
